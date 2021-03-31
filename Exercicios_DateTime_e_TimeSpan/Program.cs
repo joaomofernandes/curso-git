@@ -10,6 +10,9 @@ namespace Exercicios_DateTime_e_TimeSpan
     {
         static void Main(string[] args)
         {
+
+            Console.WriteLine("Olá Mundo!");
+            Console.WriteLine("Bom dia!");
             DateTime d1 = new DateTime(2016, 07, 10);
             DateTime d2 = new DateTime(2019, 06, 09, 22, 01, 45);
             DateTime d3 = new DateTime(2019, 06, 09, 22, 01, 45, 500);
@@ -21,7 +24,7 @@ namespace Exercicios_DateTime_e_TimeSpan
             DateTime d7 = DateTime.Parse("2004-06-12");
             DateTime d8 = DateTime.Parse("2004-06-12 16:15:47");
             DateTime d9 = DateTime.Parse("12/06/2004 17:01:28");
-            DateTime d10 = DateTime.ParseExact("2016-07-10", );
+           
 
             Console.WriteLine(d1);
             Console.WriteLine(d2);
